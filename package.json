@@ -1,0 +1,17 @@
+{
+  "name": "communityz",
+  "version": "1.0.0",
+  "description": "Selenium Project",
+  "main": "./src/TestSuites/all.test.js",
+  "scripts": {
+    "test": "jest ./src/TestSuites/all.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.6.4",
+    "jest": "^26.6.3",
+    "jest-html-reporters": "^2.1.2",
+    "selenium-webdriver": "^4.0.0-alpha.8"
+  }
+}
